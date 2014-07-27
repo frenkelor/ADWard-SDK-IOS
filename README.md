@@ -1,6 +1,8 @@
 ADWard-SDK-IOS
 ==============
 Adward ios sdk is a nomitization tool for ios game.
+##version 1.0
+
 Installetion
 ---------------------
 Import adward sdk to your appDelegate.m file 
