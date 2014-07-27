@@ -18,6 +18,13 @@ To get Adward resulst for adward register to :
                                              selector:@selector(receiveCoinsNotification:)
                                                  name:ADW_GOT_POINTS_ADS
                                                object:nil];
+                                               
+-(void) receiveCoinsNotification:(NSNotification*) notification{
+    NSDictionary *dict =notification.object;
+   NSInteger points = [[dict objectForKey:@"points"] integerValue];
+    NSLog(@"%d",points);
+}
+
 ```
 each time a player shares content Adward SDK will call this observable function with the amount of points that the user deserved.
 
