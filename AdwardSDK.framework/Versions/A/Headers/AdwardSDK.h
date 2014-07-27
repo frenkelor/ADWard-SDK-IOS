@@ -27,10 +27,10 @@
 @class ADWReachabilityManager;
 @class ADWUtils;
 
-const static NSString *ADW_PREPER_SHOW_ADS = @"ADW_PREPER";
-const static NSString *ADW_SHOW_ADS = @"ADW_SHOW_ADS";
-const static NSString *ADW_CLOSE_ADS =@"ADW_CLOSE_ADS";
-const static NSString *ADW_GOT_POINTS_ADS =@"ADW_GOT_POINTS_ADS";
+static NSString *ADW_PREPER_SHOW_ADS = @"ADW_PREPER";
+static NSString *ADW_SHOW_ADS = @"ADW_SHOW_ADS";
+static NSString *ADW_CLOSE_ADS =@"ADW_CLOSE_ADS";
+static NSString *ADW_GOT_POINTS_ADS =@"ADW_GOT_POINTS_ADS";
 
 typedef enum{
     REALTIME = 0,
