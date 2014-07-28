@@ -19,7 +19,7 @@ To initialize Adward SDK please add this code to your __application:didFinishLau
 ```[AdwardSDK startSession:@"YOUR_APP_API_KEY"];```
 Usage
 ---------------------
-register to this observable to get rewards results from Adward :
+Register to this observable to get rewards results from Adward :
 ```
 [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(receiveCoinsNotification:)
@@ -33,7 +33,7 @@ register to this observable to get rewards results from Adward :
 }
 
 ```
-each time a player shares content Adward SDK will call this observable function with the amount of points that the user deserved.
+Each time a player shares content Adward SDK will call this observable function with the amount of points that the user deserves.
 
 To show Adward content window call:
 ```
