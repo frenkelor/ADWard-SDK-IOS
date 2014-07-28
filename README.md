@@ -17,9 +17,9 @@ Import Adward SDK to your game :
 To initialize Adward SDK please add this code to your __application:didFinishLaunchingWithOptions:__ function
 
 ```[AdwardSDK startSession:@"YOUR_APP_API_KEY"];```
-Usege
+Usage
 ---------------------
-To get Adward resulst for adward register to :
+register to this observable to get rewards results from Adward :
 ```
 [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(receiveCoinsNotification:)
