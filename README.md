@@ -4,7 +4,7 @@ Adward ios sdk (v 1.0b) is a nomitization tool for ios game.
 
 Installetion
 ---------------------
-Import adward sdk to your game :
+Import Adward SDK to your game :
 
 1. download our SDK uising the direct github link or pull from git repository.
 2. open xCode and click on your root project item.
