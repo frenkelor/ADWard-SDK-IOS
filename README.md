@@ -28,7 +28,7 @@ register to this observable to get rewards results from Adward :
                                                
 -(void) receiveCoinsNotification:(NSNotification*) notification{
     NSDictionary *dict =notification.object;
-   NSInteger points = [[dict objectForKey:@"points"] integerValue];
+    NSInteger points = [[dict objectForKey:@"points"] integerValue];
     NSLog(@"%d",points);
 }
 
